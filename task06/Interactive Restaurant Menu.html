@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Restaurant Menu</title>
+</head>
+
+<body>
+
+    <h1 align = "center">Interactive Restaurant Menu</h1>
+    <p align = "center">Click on any food item in the image below to view its details.</p>
+    <hr>
+    <div align = "center">
+        <img src="image.jpg"align="right" width="700" height="400"
+            alt="Food spread Menu" usemap="#foodmap" width="600" height="350">
+    </div>
+
+    <map name="foodmap">
+
+        <!-- Circle area for Pizza -->
+        <area shape="circle" coords="300,490,100"
+        href="pizza.html"
+        alt="Loaded Meat Pizza" target="_blank">
+
+        <!-- Circle area for Burger -->
+        <area shape="circle" coords="450,200,40"
+        href="burger.html"
+        alt="Burger" target="_blank">
+
+        <!-- Rectangle area for French Fries -->
+        <area shape="rect" coords="100,100,210,175"
+        href="fries.html"
+        alt="French Fries" target="_blank">
+
+        <!-- Rectangle area for Menu Card -->
+        <area shape="rect" coords="500,50,600,150"
+        href="menu.html"
+        alt="Restaurant Menu Card" target="_blank">
+
+        <!-- Polygon area for Sandwich -->
+        <area shape="poly"
+        coords="680,30,120,150,350,100,650,250"
+        href="sandwich.html"
+        alt="Sandwich" target="_blank">
+
+        <!-- Polygon area for Cake Slice -->
+        <area shape="poly"
+        coords="600,120,750,500,700,600,580,580"
+        href="cake.html"
+        alt="Cake Slice" target="_blank">
+
+        <!-- Default area for remaining image -->
+        <area shape="default"
+        href="about.html"
+        alt="About our Restaurant Food" target="_blank">
+
+    </map>
+
+    <h2>Our Food Items</h2>
+
+    <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>French Fries</li>
+        <li>Menu Card</li>
+        <li>Sandwich</li>
+        <li>Cake Slice</li>
+    </ul>
+
+</body>
+</html>

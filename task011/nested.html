@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested Tables</title>
+</head>
+<body>
+
+    <h1 align="center">Nested Tables</h1>
+
+    <!-- Task 1: Employee Salary Slip -->
+    <h2>Task 1: Employee Salary Slip</h2>
+
+    <table border="1" align="center" cellpadding="8"
+           cellspacing="0" width="600">
+        <tr>
+            <th colspan="4">Employee Salary Slip</th>
+        </tr>
+        <tr>
+            <td><b>Employee ID</b></td>
+            <td>101</td>
+            <td><b>Employee Name</b></td>
+            <td>Rahul Sharma</td>
+        </tr>
+        <tr>
+            <td><b>Department</b></td>
+            <td>IT</td>
+            <td><b>Month</b></td>
+            <td>October</td>
+        </tr>
+        <tr>
+            <th colspan="2">Earnings</th>
+            <th colspan="2">Deductions</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table border="1" cellpadding="6"
+                       cellspacing="0" width="100%">
+                    <tr>
+                        <th>Salary Type</th>
+                        <th>Amount</th>
+                    </tr>
+                    <tr>
+                        <td>Basic Salary</td>
+                        <td>20000</td>
+                    </tr>
+                    <tr>
+                        <td>HRA</td>
+                        <td>5000</td>
+                    </tr>
+                    <tr>
+                        <td>Allowance</td>
+                        <td>2000</td>
+                    </tr>
+                </table>
+            </td>
+            <td colspan="2">
+                <table border="1" cellpadding="6"
+                       cellspacing="0" width="100%">
+                    <tr>
+                        <th>Deduction Type</th>
+                        <th>Amount</th>
+                    </tr>
+                    <tr>
+                        <td>PF</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>1000</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Total Earnings</b></td>
+            <td colspan="2">27000</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Total Deductions</b></td>
+            <td colspan="2">3000</td>
+        </tr>
+        <tr>
+            <th colspan="2">Net Salary</th>
+            <th colspan="2">24000</th>
+        </tr>
+    </table>
+
+
+    <!-- Task 2: Student Profile and Marks -->
+    <h2>Task 2: Student Profile &amp; Marks</h2>
+
+    <table border="1" align="center" cellpadding="8"
+           cellspacing="0" width="600">
+        <tr>
+            <th colspan="4">Student Profile &amp; Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="3"><b>Student Profile</b></td>
+            <td><b>Name</b></td>
+            <td colspan="2">Priya Singh</td>
+        </tr>
+        <tr>
+            <td><b>Roll No.</b></td>
+            <td colspan="2">25</td>
+        </tr>
+        <tr>
+            <td><b>Class</b></td>
+            <td colspan="2">10th</td>
+        </tr>
+        <tr>
+            <th colspan="4">Subject Marks</th>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <table border="1" cellpadding="6"
+                       cellspacing="0" width="100%">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Maximum Marks</th>
+                        <th>Obtained Marks</th>
+                    </tr>
+                    <tr>
+                        <td>English</td>
+                        <td>100</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>100</td>
+                        <td>92</td>
+                    </tr>
+                    <tr>
+                        <td>Science</td>
+                        <td>100</td>
+                        <td>88</td>
+                    </tr>
+                    <tr>
+                        <td>Computer</td>
+                        <td>100</td>
+                        <td>95</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Total Marks</b></td>
+            <td colspan="2">360 / 400</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Percentage</b></td>
+            <td colspan="2">90%</td>
+        </tr>
+    </table>
+
+
+    <!-- Task 3: Product Order Summary -->
+    <h2>Task 3: Product Order Summary</h2>
+
+    <table border="1" align="center" cellpadding="8"
+           cellspacing="0" width="600">
+        <tr>
+            <th colspan="4">Product Order Summary</th>
+        </tr>
+        <tr>
+            <td><b>Order ID</b></td>
+            <td>ORD101</td>
+            <td><b>Date</b></td>
+            <td>22-10-2026</td>
+        </tr>
+        <tr>
+            <th colspan="4">Ordered Products</th>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <table border="1" cellpadding="6"
+                       cellspacing="0" width="100%">
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>Keyboard</td>
+                        <td>2</td>
+                        <td>500</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>Mouse</td>
+                        <td>2</td>
+                        <td>300</td>
+                        <td>600</td>
+                    </tr>
+                    <tr>
+                        <td>Monitor</td>
+                        <td>1</td>
+                        <td>8000</td>
+                        <td>8000</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Subtotal</b></td>
+            <td colspan="2">9600</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Delivery Charges</b></td>
+            <td colspan="2">200</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Discount</b></td>
+            <td colspan="2">300</td>
+        </tr>
+        <tr>
+            <th colspan="2">Grand Total</th>
+            <th colspan="2">9500</th>
+        </tr>
+    </table>
+
+
+    <!-- Task 4: Hotel Booking -->
+    <h2>Task 4: Hotel Booking</h2>
+
+    <table border="1" align="center" cellpadding="8"
+           cellspacing="0" width="600">
+        <tr>
+            <th colspan="4">Hotel Booking</th>
+        </tr>
+        <tr>
+            <td><b>Booking ID</b></td>
+            <td>HB101</td>
+            <td><b>Guest Name</b></td>
+            <td>Amit Kumar</td>
+        </tr>
+        <tr>
+            <td><b>Check-in</b></td>
+            <td>25-10-2026</td>
+            <td><b>Check-out</b></td>
+            <td>28-10-2026</td>
+        </tr>
+        <tr>
+            <th colspan="4">Room Details</th>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <table border="1" cellpadding="6"
+                       cellspacing="0" width="100%">
+                    <tr>
+                        <th>Room Type</th>
+                        <th>Rooms</th>
+                        <th>Rate per Night</th>
+                        <th>Nights</th>
+                    </tr>
+                    <tr>
+                        <td>Deluxe</td>
+                        <td>1</td>
+                        <td>3000</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Standard</td>
+                        <td>1</td>
+                        <td>2000</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Room Charges</b></td>
+            <td colspan="2">15000</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Tax</b></td>
+            <td colspan="2">1500</td>
+        </tr>
+        <tr>
+            <th colspan="2">Total Amount</th>
+            <th colspan="2">16500</th>
+        </tr>
+        <tr>
+            <td><b>Payment Status</b></td>
+            <td colspan="3">Paid</td>
+        </tr>
+    </table>
+
+</body>
+</html>
